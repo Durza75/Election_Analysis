@@ -8,14 +8,30 @@ The purpose of this project is to assist Tom, a Colorado Board of Elections empl
 
 ## Election-Audit Results 
 
-### ~~Results of Stock Performance between 2017 and 2018~~
 
-- How many votes were cast in this congressional election?
-- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-- Which county had the largest number of votes?
-- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+- How many votes were cast in this congressional election? 
 
-## Election-Audit Summary
+In total, there were 369,711 votes.
 
-- In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.  
+
+Of the 369,711 votes, 10.5% of them came from Jefferson, 82.8% from Denver, and 6.7% from Arapahoe.  
+
+
+- Which county had the largest number of votes?  
+
+Denver has the largest number of votes (306,055)
+
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.  
+
+Of the 369,711 votes, 23% of them went towards Charles Casper Stockham, 73.8% towards Diana DeGette, and 3.1% towards Raymon Anthony Doane.  
+
+![](Resources/election_results.png)  
+
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?  
+
+Diana DeGette won the election 272,892 votes - 73.8% of the percentnage of total votes.
+
+## Election-Audit Summary  
+
+This script can be used for virtually any election, in any region, as long as three elements are replaced: the candidate names, the counties, and the data set. This is as simple as going back to the code and replacing the new candidate and county names with the ones currently listed. The algorithm still functions the same, but the variables would be different. Finally, and obviously, the data that was used to pull the quantity of votes would have to be supplied, preferrably csv form in order for the python code to read it.
