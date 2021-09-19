@@ -1,5 +1,21 @@
-# Election_Analysis
+# Election Analysis 
 
+## Overview of Election Audit
 
+### Purpose
 
-![](https://img-cdn.tnwcdn.com/image?fit=1200%2C675&height=675&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F07%2Fpython-3.10-1.jpg&signature=8e072de9208bfa3c9920a0e4b984fc95)
+The purpose of this project is to assist Tom, a Colorado Board of Elections employee, in an election audit of the tabulated results for U.S. Congressional precinct in Colorado. This project aims to report the total number of votes cast, the total number of votes for each candidate, teh percentage of votes for each candidate, ad the winner of the election based on the popular vote. This project will also invesigate the results of the election by county.
+
+## Election-Audit Results 
+
+### ~~Results of Stock Performance between 2017 and 2018~~
+
+- How many votes were cast in this congressional election?
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+- Which county had the largest number of votes?
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+## Election-Audit Summary
+
+- In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
